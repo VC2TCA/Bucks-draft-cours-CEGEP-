@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E8E4C1;
+    width: 75%;
+    height: 100%;
+    padding-left: 200px;
+}
+
+nav {
+    width: 100%;
+    height: 5%;
+    background-color: #F2E88B;
+}
+
+.logo {
+    width: 9%;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: rgb(1,102,4);
+    background: linear-gradient(90deg, rgba(1,102,4,1) 0%, rgba(18,179,55,1) 35%, rgba(0,255,192,1) 100%);
+}
+
+.banniere {
+    width: 90%;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+aside {
+    float: left;
+    width: 15%;
+    height: 80%;
+    border: 4px solid black;
+    border-radius: 20px;
+    background: rgb(114,107,237);
+    background: linear-gradient(45deg, rgba(114,107,237,1) 0%, rgba(39,146,177,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.rookie {
+    background-color: rgba(39,146,177,1);
+    width: 70%;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+.joueurImg {
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+}
+
+.description {
+    width: 150px;
+    margin-left: 5px;
+}
+
+.resumers {
+    margin-bottom: 5px;
+    color: #363636;
+    font-weight: bolder;
+}
+
+main {
+    width: 83%;
+    height: 80%;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #8BD5DA;
+    margin-left: 16%;
+}
+
+.text {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.draft {
+    margin-left: 5%;
+}
+
+form {
+    margin-left: 5%;
+    width: 90%;
+    height: 75px;
+}
+
+.form label {
+    font-weight: bolder;
+}
+
+.form input {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.form .nameInput {
+    margin-left: 36px;
+}
+
+.checking {
+    border: 1px solid black;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.checking input {
+    margin-top: 30px;
+}
+
+.checking label {
+    margin-left: 400px;
+    font-weight: bolder;
+}
+
+#inscription {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 90%;
+    height: 370px;
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#inscription input {
+    margin-top: 6px;
+}
+
+#inscription label {
+    margin-left: 15px;
+    font-weight: bolder;
+}
